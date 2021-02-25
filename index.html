@@ -1,0 +1,113 @@
+<html>
+<head>
+ <title>Origami.in</title> 
+ <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width =device-width, intial-scale =1">
+ <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@200&display=swap" rel="stylesheet">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+ <section id="banner">
+  <img src="data:image/png;base64,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" class="logo"> 
+ <div class="banner-text">
+  <h1>Bon Appétit
+    .in</h1> 
+  <p>Rain or shine, it's time to dine.</p>
+  <p>From the kitchen of Master Chef Suryansh</p>
+  <div class="banner-btn">
+  <a href="#"><span></span>Find Out </a>  
+  <a href="#"><span></span>Read More </a>  
+</div>
+</div>
+</section> 
+<div id="sideNav">
+ <nav>
+   <ul>
+    <li><a href="#">Home</a></li> 
+     <li><a href="#">Recipe</a></li> 
+       <li><a href="#">Videos</a></li> 
+    </ul> 
+</nav>   
+</div>
+<div id="menuBtn">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png" id="menu">   
+</div>
+<script>
+ var menuBtn = document.getElementById("menuBtn")    
+ var sideNav = document.getElementById("sideNav")  
+ var menu = document.getElementById("menu") 
+ 
+  sideNav.style.right = "-250px";
+   
+ menuBtn.onclick = function(){
+    if(sideNav.style.right == "-250px") {
+        sideNav.style.right = "0";
+        menu.src = "https://www.bing.com/images/blob?bcid=S8ySA.EkhFECNg";
+    } 
+     else{
+      sideNav.style.right = "-250px"; 
+         menu.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png";
+     }
+ }
+ 
+ 
+         
+   
+</script>
+
+<section id="about-recipe">
+    <div class="container">
+    <h1 class="title text-center"> Ingriedients for Penne Arrabiata Pasta  </h1>
+    <div class="row">
+    <div class="col-md-6 about-us">
+    <p class="about-title">Ingriedients - </p>  
+    <ul>
+     <li>2 tablespoons olive oil</li> 
+     <li>½ medium onion, finely diced</li> 
+     <li>½ teaspoon red chili flakes</li>  
+     <li>1 clove garlic, minced</li>   
+     <li>14 oz crushed tomato (395 g), 1 can</li> 
+     <li>Salt</li>   
+     <li>½ lb penne pasta (225 g)</li>  
+    </ul>
+    </div>
+    <div class="col-md-6">
+    <img src="https://www.foodiecrush.com/wp-content/uploads/2020/05/Penne-Marinara-Sauce-foodiecrush.com-004.jpg" class="img-fluid">
+    </div>
+    </div>
+    </div>
+    </section>
+  
+<section id="about-us">
+    <div class="container">
+    <h1 class="title text-center">Penne Arrabiata Pasta Recipe  </h1>
+    <div class="row">
+    <div class="col-md-6 about-us">
+    <p class="about-title">Recipe - </p>  
+    <ul>
+     <li>Heat a large  pan over medium heat. Add the onion and olive oil, and cook until the onion is translucent, 9-10 minutes.</li> 
+     <li>Add the garlic and chile flakes, and cook  it for another 2 to 3  minutes, until garlic turns brown. Stir in tomatoes and simmer uncovered for 20 minutes.</li> 
+     <li>Take  a large pot . Put water and a teaspoon of salt in it . Bring it to a boil .  Cook the pasta according to package instructions. Save ½ cup (120 ml) of pasta water, then drain.</li>  
+     <li>Add the drained pasta to the sauce. Stir well, adding a little pasta water if needed to loosen the sauce. Season with salt to taste.</li>   
+     <li>Enjoy and share your expierience in the comments section below .</li> 
+    </ul>
+    </div>
+    <div class="col-md-6">
+    <img src="https://www.foodiecrush.com/wp-content/uploads/2020/05/Penne-Marinara-Sauce-foodiecrush.com-004.jpg" class="img-fluid">
+    </div>
+    </div>
+    </div>
+    </section>
+  
+</body>
+    
+</html>
